@@ -121,7 +121,6 @@ y_wz = data_Y['Wz'].values
 X_scaler = preprocessing.StandardScaler()
 X_scaled = (X_scaler.fit_transform(X.reshape(-1,1)))
 
-"""%%time
 model_wx = Sequential()
 model_wx.add(Dense(512, input_dim=1, activation='relu'))
 model_wx.add(Dropout(.1))
@@ -176,7 +175,7 @@ predicted_self = predicted_self.T[0]
 
 plt.plot(X, y_wz)
 plt.plot(data_test, predicted)
-"""
+
 
 
 
