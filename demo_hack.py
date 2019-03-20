@@ -367,4 +367,4 @@ for num, drop in enumerate(drops):
     print(num, min_distance, [Sx_fall[-1][0], Sz_fall[-1][0]])
   if min_distance < 3:
     break
-drops[min_pos]
+print(drops[min_pos])
